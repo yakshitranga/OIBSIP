@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Temperature Converter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter | Yakshit Ranga</title>
+    <link rel="stylesheet" href="temperature converter.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Temperature Converter 🌡️</h1>
+        <div class="input-group">
+            <label for="temperature">Temperature:</label>
+            <input type="number" placeholder=" Enter Temperature to be Converted" id="temperature" required>
+        </div>
+        <div class="unit-group">
+            <label for="unit">Unit:</label>
+            <select id="unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="convert-to-group">
+            <label for="convert-to">Convert to:</label>
+            <select id="convert-to">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="button-group">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="result-group">
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="temperature converter.js"></script>
+</body>
+</html>
